@@ -1,0 +1,8 @@
+table.cal td.odd.holiday {
+	background-color: #fff7f8;
+}
+
+table.cal td.even.holiday {
+	background-color: #ff9999;
+}
+

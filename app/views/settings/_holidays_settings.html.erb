@@ -1,0 +1,8 @@
+<p>
+<table>
+  <tr>
+    <td><%= l(:region) %></td>
+    <td><%= select_tag('settings[region]', options_for_select(Holidays.regions, @settings['region'])) %></td>
+  </tr>
+</table>
+</p>
