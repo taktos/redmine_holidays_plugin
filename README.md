@@ -23,7 +23,11 @@ Installations
         $ cd REDMINE_ROOT
         $ bundle install
 
-3. Restart Redmine
+3. Run Rake task
+
+        $ bundle exec rake redmine:plugins:migrate RAILS_ENV=production
+
+4. Restart Redmine
 
 
 Settings
